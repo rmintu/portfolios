@@ -1,0 +1,22 @@
+.profile-img img{
+    width: 120px;
+    border-radius: 78px;
+}
+
+.designation {
+    background-color: #eb7d1e;
+    width: 71%;
+    margin-left: 45px;
+    padding: 2px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.social-icons {
+    width: 100%;
+    text-align: center;
+}
+
+.skills{
+    text-align: left;
+}
