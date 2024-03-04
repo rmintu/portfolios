@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .profile-img img{
     width: 120px;
     border-radius: 78px;
@@ -5,7 +9,7 @@
 
 .designation {
     background-color: #eb7d1e;
-    width: 71%;
+    width: 72%;
     margin-left: 45px;
     padding: 2px;
     border-radius: 10px;
@@ -19,4 +23,64 @@
 
 .skills{
     text-align: left;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.percentage {
+    margin-left: 200px;
+}
+
+.cv {
+    background-color: rgb(247 143 66);
+    border-color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.home-section{
+    margin-top: 100px;
+}
+
+.pro-details{
+    text-align: left;
+}
+.typing_animation_line{
+    color: red;
+}
+
+.texts span{
+    color: red;
+}
+
+.pro-details h2{
+    color: #eb7d1e;
+}
+
+.about-details{
+    text-align: left;
+}
+
+.experience {
+    margin: auto;
+}
+
+.skill-icons{
+    width: 100px;
+}
+
+.img {
+    width: 200px;
 }

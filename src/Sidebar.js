@@ -1,4 +1,5 @@
 import React from 'react'
+import Progress from 'react-progressbar';
 import Profile from './profile.jpg'
 import './Sidebar.css'
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -9,8 +10,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 export default function Sidebar() {
   return (
     <div className='sidebar-section'>
-    <div className='row'>
-     <div className='col-md-3'>
+
       <div className='profile-img'>
         <img src={Profile} alt="/" />
       </div>
@@ -22,21 +22,40 @@ export default function Sidebar() {
       <TwitterIcon />
       <LinkedInIcon />
       </div>
-      <p className='mails'>Email: rmintu106@gmail.com</p>
-      <p className='phone'>Phone: 9123011769</p>
-      <p className='residence'>Residence: India</p>
-      <p className='city'>City: Siliguri</p>
-      <p className='age'>Age: 29</p>
-      <p className='language'>Language: Bengali, English, Hindi</p>
+      <div className='flex-items'><p className='text-content'>Email:</p> rmintu106@gmail.com</div>
+      <div className='flex-items'><p className='text-content'>Phone:</p> 9123011769</div>
+      <div className='flex-items'><p className='text-content'>Residence:</p> India</div>
+      <div className='flex-items'><p className='text-content'>City:</p> Siliguri</div>
+      <div className='flex-items'><p className='text-content'>Age:</p> 29</div>
+      <div className='flex-items'><p className='text-content'>Language:</p> Bengali, English, Hindi</div>
       <hr />
       <div className='skills'>
         <h6>Top Skills: </h6>
+        <div class="skills-details">
+          <span>React js</span>
+          <span className='percentage'>75%</span>
+        <Progress completed={75} />
       </div>
+      <div class="skills-details">
+          <span>Shopify</span>
+          <span className='percentage'>90%</span>
+        <Progress completed={90} />
+      </div>
+      <div class="skills-details">
+          <span>Node js</span>
+          <span className='percentage'>60%</span>
+        <Progress completed={60} />
+      </div>
+      <div class="skills-details">
+          <span>Javascript</span>
+          <span className='percentage'>90%</span>
+        <Progress completed={90} />
+      </div>
+      <button className='cv'>DOWNLOAD MY CV</button>
       </div>
       <div className='col-md-9'>
 
       </div>
       </div>
-    </div>
   )
 }
