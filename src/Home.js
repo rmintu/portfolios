@@ -49,19 +49,21 @@ export default function Home() {
   return (
       <div className='home-section'>
         <div className='row'>
-          <div className='col-md-6 pro-details'>
-      <h2>Welcome to my Website</h2>
+          <div className='col-md-7 pro-details'>
+      <h2>Welcome to My Website</h2>
+      <div className='intro'>
       <p>Hi, I am Mintu</p>
       <div className="typing_animation_line">
       <span className="word">{part}</span>
       <span className="typed-cursor">|</span>
     </div>
     <p>Based in India</p>
-      <p className='texts'>I'm an India based web designer & front‑end developer with <span>2+ years</span> of experience.</p>
-      <button>Got a project?</button>
-      <button>Lets talk</button>
     </div>
-      <div className='col-md-6'>
+      <p className='texts'>I'm an India based shopify & Mern Stack developer with <span>2+ years</span> of experience.</p>
+      <button className='btn-pro'>Got a project?</button>
+      <button className='btn-talk'>Lets talk</button>
+    </div>
+      <div className='col-md-5'>
         <img className="img" src={Image} alt="" />
       </div>
       </div>

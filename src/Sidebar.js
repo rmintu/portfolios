@@ -6,6 +6,8 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import ExampleDoc from './your-file.pdf'
+
 
 export default function Sidebar() {
   return (
@@ -15,7 +17,7 @@ export default function Sidebar() {
         <img src={Profile} alt="/" />
       </div>
       <h3 className='profile-titl'><b>Mintu Roy</b></h3>
-      <p className='designation'>Shopify & React-js Developer</p>
+      <p className='designation'>Shopify & Mern Stack Developer</p>
       <div className='social-icons'>
       <FacebookIcon />
       <InstagramIcon />
@@ -51,7 +53,7 @@ export default function Sidebar() {
           <span className='percentage'>90%</span>
         <Progress completed={90} />
       </div>
-      <button className='cv'>DOWNLOAD MY CV</button>
+      <a href={ExampleDoc} download="MyExampleDoc" target='_blank'><button className='cv {classes.navLink}' >DOWNLOAD MY CV</button></a>
       </div>
       <div className='col-md-9'>
 

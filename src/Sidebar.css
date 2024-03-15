@@ -2,15 +2,23 @@
     margin: 0;
     padding: 0;
 }
-.profile-img img{
+.profile-img img {
     width: 120px;
-    border-radius: 78px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
 }
-
+.main_menu {
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 0px 7px 0px #00000033;
+}
 .designation {
     background-color: #eb7d1e;
-    width: 72%;
-    margin-left: 45px;
+    width: 90%;
+    margin-left: 15px;
     padding: 2px;
     border-radius: 10px;
     color: #ffffff;
@@ -31,14 +39,25 @@
 }
 
 .percentage {
-    margin-left: 200px;
+    text-align: right;
 }
-
+.skills-details span {
+    width: 50%;
+}
+.progressbar-container {
+    width: 100%;
+}
+.skills-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
 .cv {
     background-color: rgb(247 143 66);
     border-color: white;
     padding: 5px;
     width: 100%;
+    cursor: pointer;
 }
 
 .menus{
@@ -47,20 +66,27 @@
     width: 50%;
     float: right;
     list-style-type: none;
-    margin-top: 20px;
+    margin: 0px;
+    padding: 15px 0;
 }
 
-.home-section{
-    margin-top: 100px;
+.home-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 7px 0px #00000033;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
 }
-
 .pro-details{
     text-align: left;
 }
 .typing_animation_line{
     color: red;
 }
-
+.header-section {
+    padding-top: 30px;
+}
 .texts span{
     color: red;
 }
@@ -73,14 +99,92 @@
     text-align: left;
 }
 
+.about-details h2{
+    color: red;
+}
+
 .experience {
     margin: auto;
 }
 
 .skill-icons{
     width: 100px;
+    background: #fff;
+    padding: 10px;
+}
+
+.skills h2 {
+    text-align: center;
 }
 
 .img {
     width: 200px;
+    margin-top: 60px;
+}
+
+.header-section .row {
+    margin: 0;
+}
+body {
+    background: #efefef;
+}
+.sidebar-section {
+    background: #fff;
+    box-shadow: 0px 0px 7px 0px #00000033;
+    padding: 20px;
+    position: sticky;
+    top: 0;border-radius: 6px;
+}
+
+.intro {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.btn-pro {
+    margin-right: 15px;
+    background: #eb7d1e;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.btn-talk {
+    background: #eb7d1e;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.round-exp {
+    background: #fff;
+    box-shadow: 3px 6px 2px #bbb;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.round-text{
+    padding: 100px;
+}
+
+.round-text h2{
+    font-size: 3rem;
+}
+
+.second-row {
+    margin-top: 20px !important;
+}
+
+img.pti-logo{
+    width: 50px;
+}
+
+.ex-details {
+    background: #fff;
+    width: 500px;
+    margin: auto;
 }
