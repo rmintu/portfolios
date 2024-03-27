@@ -53,7 +53,7 @@ export default function Sidebar() {
           <span className='percentage'>90%</span>
         <Progress completed={90} />
       </div>
-      <a href={ExampleDoc} download="MyExampleDoc" target='_blank'><button className='cv {classes.navLink}' >DOWNLOAD MY CV</button></a>
+      <a href={ExampleDoc} download="MyExampleDoc" target='_blank' rel="noreferrer"><button className='cv {classes.navLink}' >DOWNLOAD MY CV</button></a>
       </div>
       <div className='col-md-9'>
 

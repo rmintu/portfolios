@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from './logo.svg'
 import Sidebar from './Sidebar'
 import Home from './Home'
 import About from './about-us'
