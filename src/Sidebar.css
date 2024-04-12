@@ -188,3 +188,122 @@ img.pti-logo{
     width: 500px;
     margin: auto;
 }
+
+
+.service_grid_list {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    height: 100%;
+}
+.service_grid_list svg {
+    width: 40px;
+    height: 40px;
+}
+.service_grid_list h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2a2a2a;
+}
+.service_grid_list p {
+    font-size: 16px;
+    color: #2a2a2a;
+}
+.contact-section {
+    margin-top: 40px;
+}
+
+.get_touch_form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: left;
+}
+.get_touch_form h3 {
+    font-size: 20px;
+}
+.get_touch_form form {
+    margin-top: 30px;
+}
+
+.info_div {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.info_div label {
+    width: 100%;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+.info_div input, .info_div textarea {
+    width: 100%;
+    border: none;
+    background: #efefef;
+    padding: 8px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #000;
+}
+button.sub_btn {
+    background: #eb7d1e;
+    border: none;
+    font-size: 14px;
+    padding: 8px 18px;
+    display: block;
+    border-radius: 5px;
+    color: #fff;
+}
+.copyright h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact_right_info {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.location-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.location-items p {
+    margin-bottom: 0;
+}
+
+.contact_right_info svg {
+    height: 20px;
+    width: 20px;
+    fill: white;
+}
+.contact_right_info span {
+    width: 40px;
+    height: 40px;
+    background: #eb7d1e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

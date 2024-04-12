@@ -5,7 +5,9 @@ import About from './about-us'
 import Skills from './skills'
 import Experts from './expert'
 import Service from './Service'
+import Projects from './projects'
 import Contact from './Contact'
+import Copyright from './copyright'
 import { Link as ScrollLink } from 'react-scroll';
 
 
@@ -32,7 +34,9 @@ export default function Header() {
         <Skills />
         <Experts />
         <Service />
+        <Projects />
         <Contact />
+        <Copyright />
       </div>
       </div>
       </div>
